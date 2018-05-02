@@ -1,0 +1,58 @@
+.am-accordion .am-accordion-item .am-accordion-header {
+    position: relative;
+    height: 0.80rem !important;
+    line-height: 0.80rem !important;
+    background-color: #fff !important;
+    box-sizing: content-box !important;
+    width: auto !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    color: #333333 !important;
+    font-size: 0.26rem !important;
+    padding-left: 0.30rem;
+}
+
+.am-accordion .am-accordion-item .am-accordion-header i {
+  position: absolute;
+  display: block;
+  top: 0.20rem !important;
+  right: 0.30rem !important;
+  width: 0.40rem !important;
+  height: 0.40rem !important;
+ 
+}
+
+.am-list-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 0 !important; 
+  min-height: 0.88rem;
+  background-color: #fff;
+  vertical-align: middle;
+  overflow: hidden;
+  transition: background-color 200ms;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.am-list-item .am-list-line-multiple {
+  padding-right: 0 !important;
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.deslist-text{
+  overflow:hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.appealsDetailText{
+  width:4.50rem;
+   word-wrap:break-word; 
+   white-space:pre-wrap;
+
+}
+

@@ -1,0 +1,182 @@
+.msgTitle{
+    padding-bottom: 0.35rem;
+}
+.bindBtn{
+    background-color: #fff;
+    color: #108ee9
+}
+.radioWrapper{
+    padding-top: 0.45rem;
+    padding-bottom: 0.45rem;
+    font-size: 0.26rem;
+}
+.my-radio .am-radio {
+    border: 0.01rem solid #ccc;
+    border-radius: 50%;
+    margin-right: 0.1rem;
+  }
+  .payBtn{
+    position: absolute;
+    bottom: 0;
+  }
+  .am-list-item .am-list-line .am-list-content{
+    color: #333 !important;
+    font-size: 0.26rem !important;
+    text-align: left !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 0 !important;
+ 
+  }
+
+
+.am-list-item .am-list-line .am-list-extra {
+    flex-basis: 36% !important;
+    color: #333333 !important;
+    font-size: 0.26rem !important;
+    line-height: 1.5 !important;
+    width: auto !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    padding-top: 0.14rem !important;
+    flex: 1 !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 !important;
+    padding-bottom: 0.14rem !important;
+}
+
+.am-list .am-list-item.am-radio-item .am-list-line .am-list-extra .am-radio {
+    height: 0.88rem !important;
+}
+
+.am-radio-inner:after {
+    width: 0.22rem !important;
+    height: 0.38rem !important;
+    right: 0.30rem !important;
+}
+
+.am-card{
+    border: 0.01rem solid #ddd !important;
+    padding-bottom: 0 !important;
+}
+.am-card-body {
+    border-top: 0.01rem solid #ddd !important;
+     padding: 0 !important;
+    font-size: 0.3rem !important;
+    color: #333 !important;
+    min-height: 0.8rem !important;
+    -webkit-box-flex: 1 !important;
+    -ms-flex: 1 !important;
+    flex: 1 !important;
+}
+
+.am-list-item .am-list-line .am-list-arrow {
+    margin-top: 0.04rem !important;
+}
+
+
+.am-picker-col-mask {
+    background-size: 100% 1.65rem !important;
+}
+
+.am-picker-popup-item{
+    font-size: 0.28rem !important;
+    height: 0.65rem !important;
+    line-height: 0.65rem !important;
+}
+
+.am-picker-popup-title {
+    color: #333333 !important;
+}
+.am-picker-popup-header-left{
+    color: #333 !important
+}
+.am-picker-col {
+    height: 3.80rem !important;
+
+}
+.am-picker-col-item {
+    font-size: 0.28rem !important;
+    color:#333333 !important;
+    height: 0.55rem !important;
+    line-height: 0.55rem !important;
+}
+
+.am-picker-col-content {
+    padding: 1.65rem 0 !important;
+
+}
+
+.am-picker-col-indicator {
+    height: 0.55rem !important;
+    top: 1.65rem !important;
+}
+
+.am-modal{
+    width: 100% !important;
+    margin: 0 1.00rem !important;
+    height: auto !important;
+}
+.am-modal.am-modal-transparent .am-modal-content {
+   padding-top: 0 !important;
+}
+.am-modal-header {
+    padding: 0 !important; 
+}
+.am-modal-title {
+    margin: 0;
+    font-size: 0.28rem !important;
+    height: 0.80rem !important;
+    line-height: 0.80rem !important;
+    color: #888888 !important;
+    margin: 0 0.30rem !important;
+    border-bottom: 0.01rem solid #ddd !important;
+    text-align: center;
+}
+.am-modal.am-modal-transparent .am-modal-content .am-modal-body {
+     padding: 0.30rem 0.30rem !important; 
+}
+.am-modal-body {
+    font-size: 0.28rem !important;
+    color: #333333 !important;
+    height: 100%;
+    line-height: 1.5;
+    overflow: auto;
+}
+
+.am-modal-footer{
+    height: 0.80rem !important;
+    line-height: 0.80rem !important;
+}
+
+.am-modal-button-group-v .am-modal-button {
+    color: #009cff !important;
+    font-size: 0.28rem !important;
+    height: 0.80rem !important;
+    line-height: 0.80rem !important;
+}
+
+.am-modal-button-group-h .am-modal-button {
+    font-size: 0.28rem !important;
+    height: 0.88rem !important;
+    line-height: 0.88rem !important;
+}
+.activPayClass {
+    background-Color:#f5f5f5 !important;
+  
+}
+.payClass {
+    background-Color:#fff;
+
+}
+//省略
+.orderDetailTxt{
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}

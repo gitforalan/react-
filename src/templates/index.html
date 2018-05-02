@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 100px;" data-scale="true">
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8" />
+    <meta name="Cache-Control" content="private">
+    <!--
+
+     阿里移动端高清方案代码 
+     根据设备屏幕的DPR（设备像素比，又称DPPX，比如dpr=2时，表示1个CSS像素由4个物理像素点组成）
+     动态设置 html 的font-size, 同时根据设备DPR调整页面的缩放值，进而达到高清效果
+     有效解决移动端真实1px问题（这里的1px 是设备屏幕上的物理像素）
+     rem是根据其父元素的字体大小来设置，而rem是根据网页的跟元素（html）来设置字体大小
+     引用了其他的UI库，为了兼容高清方案，你需要对该UI库里凡是应用px的地方做相应处理，即： a px => a*0.02 rem
+     该高清方案 默认 1rem = 100px
+     注意点：绝不是每个地方都要用rem，rem只适用于固定尺寸！
+     rem移动端兼容：
+        ios：6.1系统以上都支持
+        android：2.1系统以上都支持
+  -->
+
+    <script type="text/javascript">
+
+        ! function (e) {
+            function t(a) {
+                if (i[a]) return i[a].exports;
+                var n = i[a] = {
+                    exports: {},
+                    id: a,
+                    loaded: !1
+                };
+                return e[a].call(n.exports, n, n.exports, t), n.loaded = !0, n.exports
+            }
+            var i = {};
+            return t.m = e, t.c = i, t.p = "", t(0)
+        }([function (e, t) {
+            "use strict";
+            Object.defineProperty(t, "__esModule", {
+                value: !0
+            });
+            var i = window;
+            t["default"] = i.flex = function (e, t) {
+                var a = e || 100,
+                    n = t || 1,
+                    r = i.document,
+                    o = navigator.userAgent,
+                    d = o.match(/Android[\S\s]+AppleWebkit\/(\d{3})/i),
+                    l = o.match(/U3\/((\d+|\.){5,})/i),
+                    c = l && parseInt(l[1].split(".").join(""), 10) >= 80,
+                    p = navigator.appVersion.match(/(iphone|ipad|ipod)/gi),
+                    s = i.devicePixelRatio || 1;
+                p || d && d[1] > 534 || c || (s = 1);
+                var u = 1 / s,
+                    m = r.querySelector('meta[name="viewport"]');
+                m || (m = r.createElement("meta"), m.setAttribute("name", "viewport"), r.head.appendChild(m)), m.setAttribute("content", "width=device-width,user-scalable=no,initial-scale=" + u + ",maximum-scale=" + u + ",minimum-scale=" + u), r.documentElement.style.fontSize = a / 2 * s * n + "px"
+            }, e.exports = t["default"]
+        }]);
+        flex(100, 1);
+        window.onload = function () {
+            var url = window.location.href;
+            parseQueryString(url)
+        }
+        function parseQueryString(url) {
+            var obj = {};
+            var paramStr = url.split("?")[1];
+            if (paramStr != undefined) {
+                var paramArray = paramStr.split("&");
+                for (var i = 0; i < paramArray.length; i++) {
+                    var key = paramArray[i].split("=")[0];
+                    var value = paramArray[i].split("=")[1];
+                    obj[key] = value;
+                }
+                var currentLang = obj.goods_language;
+                var goods_language
+                switch (currentLang) {
+                    case 'zh-Hans-CN':
+                        goods_language = 'zh_CN'
+                        break;
+                    case 'zh-Hans-US':
+                        goods_language = 'zh_CN'
+                        break;
+                    case 'zh_CN':
+                        goods_language = 'zh_CN'
+                        break;
+                    case 'en':
+                        goods_language = 'en'
+                        break;
+                    case 'en_GB':
+                        goods_language = 'en'
+                        break;
+                    default:
+                        goods_language = 'en'
+                        break;
+                }
+
+                obj.goods_language = goods_language
+                localStorage.setItem('loginInfo', JSON.stringify(obj));
+
+            }
+        }
+
+    </script>
+    <title>云存商城</title>
+</head>
+
+<body>
+    <div id="app" style="width:100%;height:100%"></div>
+
+</body>
+
+</html>

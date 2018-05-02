@@ -1,0 +1,108 @@
+
+.am-card-header-content img {
+  height: 1.28rem !important;
+  max-width: 100% !important;
+  }
+
+.am-card-header-extra {
+  -webkit-box-flex: initial !important;
+  -ms-flex: initial !important;
+  flex: initial !important;
+  text-align: right !important;
+  font-size: 0.34rem !important;
+  color: #888 !important;
+}
+.detail-time{
+  padding-top: 0.25rem;
+}
+.detail-time span{
+  font-size: 0.23rem;
+}
+.goods-des{
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.good_prdernum{
+  display: block;
+  padding-top: 0.45rem;
+  padding-bottom: 0.45rem;
+}
+.goods-input{
+  width: 0.78rem;
+  text-align: center;
+  border : 0.01rem solid #888888;
+  background-color: #fff;
+  height: 0.59rem;
+  color: #333333;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+
+}
+.goods-buyBtn{
+  position: fixed;
+  width: 92%;
+  bottom: 0;
+}
+.detail-header{
+  padding-right: 0.15rem;
+}
+.detail-show{
+  padding-bottom: 0.45rem;
+}
+.goods-btn{
+  height: 0.60rem;
+  width: 0.59rem;
+  box-sizing:border-box;
+  -moz-box-sizing:border-box; /* Firefox */
+  -webkit-box-sizing:border-box; /* Safari */
+  border: 0.01rem solid #888888;
+  background-color: #fff;
+  color: #000;
+  border-radius:0.10rem
+  
+}
+.peoductImg{
+  width:100%; 
+  height: 4.00rem;
+  position:relative; 
+  margin-bottom: 0.20rem;
+
+}
+.am-stepper-handler, .am-stepper-handler-up-inner, .am-stepper-handler-down-inner{
+  width: 0.60rem !important;
+  height: 0.60rem !important;
+  line-height: 0.60rem !important;
+}
+.am-stepper-input-wrap {
+  height: 0.6rem !important;
+  line-height: 0.6rem !important;
+
+}
+.am-stepper-input {
+  font-size: 0.28rem !important;
+  color: #333 !important;
+}
+
+.am-icon-xxs {
+  width: 0.22rem !important;
+  height: 0.22rem !important;
+}
+
+.am-stepper-handler-wrap {
+  font-size: 0.30rem !important;
+}
+.am-navbar-title >span{
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  display: block;
+  padding: 0 0.30rem;
+
+}
+
+.goodsDetaildescride{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}

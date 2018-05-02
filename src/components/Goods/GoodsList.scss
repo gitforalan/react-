@@ -1,0 +1,93 @@
+
+
+.am-list-view-scrollview-content{
+  max-width: 100% !important;
+}
+
+.flex-container {
+  width: 100%;
+  margin:0 auto;
+}
+.productlistItem1{
+    text-align: center
+}
+.productlistItem3{
+    text-align: center
+}
+
+
+//列表样式
+.row {
+  padding: 0 0.3rem;
+  background-color: white;
+}
+.row-title {
+  height: 1rem;
+  line-height: 1rem;
+  color: #888;
+  font-size: 0.36rem;
+  border-bottom: 0.01rem solid #F6F6F6;
+}
+.goods-row-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  width: 70%;
+  margin-bottom: 0.16rem;
+  font-size: 0.28rem;
+  color: #333
+}
+
+
+.des-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;//限制文本的行数，只显示两行
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width:6.5rem;
+  color: #888888;
+  font-size: 0.26rem;
+}
+.listImg{
+  width:1.28rem; 
+  position:relative; 
+  padding-bottom:1.28rem; 
+  height:0;
+  margin-right: 0.3rem;
+  margin-left: 0.3rem;
+  margin-top: 0.60rem;
+  margin-bottom: 0.60rem;
+}
+
+.am-grid{
+  width: 100% !important;
+  height: 100% !important;
+}
+.am-flexbox{
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.am-grid.am-grid-line .am-flexbox .am-flexbox-item:after {
+  content: none !important;
+}
+
+.am-grid .am-flexbox .am-flexbox-item.am-grid-item:before {
+  content: none !important;
+}
+.buyBtn{
+  display: inline-block;
+  width: 1.40rem;
+  height: 0.50rem;
+  line-height: 0.50rem;
+  font-size: 0.22rem;
+  color: #009cff;
+  border: 0.02rem solid #009cff;
+}
+.am-button-ghost.am-button-active{
+	color:#fff !important;
+	background-color:#009cff !important;
+}
+
+

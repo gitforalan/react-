@@ -1,0 +1,66 @@
+
+  .flex-container {
+    width: 100%;
+    margin:0 auto;
+  }
+  .productlistItem1{
+      text-align: center
+  }
+  .productlistItem3{
+      text-align: center
+  }
+  
+  .am-tabs-bar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    border-bottom: 0.01rem solid #333 !important;
+    border-top: 0.01rem solid #333 !important;
+}
+  
+.row {
+  padding: 0 0.3rem;
+  background-color: white;
+}
+.row-title {
+  height: 0.80rem;
+  line-height: 0.80rem;
+  color: #333333;
+  border-bottom: 0.01rem solid #ddd;
+}
+.row-text {
+  display: inline-block;
+  font-size: 0.32rem;
+  line-height: 1;
+}
+.am-tabs-bar .am-tabs-tab-active {
+  color: #009cff !important;
+  font-weight: bold;
+}
+.am-tabs-ink-bar {
+  background-color: #009cff !important;
+}
+  
+.activClass{
+  color: #009cff;
+  background-color: #009cff;
+}
+.tabClass{
+  background-color: #fff
+}
+.ordersTitle{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.orders-des-text{
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  max-width: 6.5rem;
+  color: #888;
+  font-size: .26rem;
+}
